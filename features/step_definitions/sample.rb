@@ -1,7 +1,7 @@
 
 Given /^startup the framework and visit otwn website/ do
 	
-  visit('https://otwn.nl/')
+  visit('http://otwn.nl/')
   sleep(6)
 end
 
