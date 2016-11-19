@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78b658a-3bfd-45d8-9d5c-e1610d94fc04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/env2.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ruby-project.iml" afterPath="$PROJECT_DIR$/.idea/ruby-project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
@@ -39,16 +38,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env2.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env2.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -453,7 +442,7 @@
       <workItem from="1479581441405" duration="126000" />
       <workItem from="1479581584342" duration="6301000" />
       <workItem from="1479588266803" duration="2004000" />
-      <workItem from="1479590318476" duration="2987000" />
+      <workItem from="1479590318476" duration="3207000" />
     </task>
     <servers />
   </component>
@@ -469,7 +458,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12840000" />
+    <option name="totallyTimeSpent" value="13060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
