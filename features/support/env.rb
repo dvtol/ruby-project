@@ -18,13 +18,14 @@ require 'cucumber/rspec/doubles'
 #end
 
 # added Chrome for Windows (local testing)
+url = 'http://otwn.nl:4444/wd/hub'
+
 Capybara.register_driver :phantomjs do |app|
   caps = Selenium::WebDriver::Remote::Capabilities.phantomjs()
-  Capybara::Selenium::Driver.new(app, {:browser => :phantomjs, :desired_capabilities => caps})
+  Capybara::Selenium::Driver.new(app, {:browser => :remote, :url => url, :desired_capabilities => caps})
 end
 
 Capybara.default_driver = case ENV['BROWSER']
                             when 'phantomjs'
                               :phantomjs
                           end
-
