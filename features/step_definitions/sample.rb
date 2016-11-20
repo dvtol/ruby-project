@@ -5,6 +5,7 @@ Given /^startup the framework and visit otwn website/ do
   sleep(4)
     page.save_screenshot('sample-otwn.png')
   sleep(4)
+    fail
     page.driver.quit
 end
 
