@@ -11,7 +11,7 @@ end
 When /^@we click the 'hello world' link/ do
 
   # click hello world link
-  page.find(:xpath, '//*[@id="post-1"]/header/h1/a').click
+  page.find(:xpath, '//*[@id="post-1"]/header/h1/a123').click
   sleep(2)
   page.save_screenshot('sample-otwn2.png')
 end
