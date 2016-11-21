@@ -2,7 +2,7 @@
 Given /^@startup the framework and visit otwn website/ do
 
   # open otwn website
-  visit('http://otwn.nl/')asdasd
+  visit('http://otwn.nl/')
   sleep(2)
     page.save_screenshot('sample-otwn1.png')
   sleep(2)
