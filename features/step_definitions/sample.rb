@@ -16,7 +16,7 @@ When /^@we click the 'hello world' link/ do
   page.save_screenshot('sample-otwn2.png')
 end
 
-When /^@the hello word page opens and we quit the browser/ do
+Then /^@the hello word page opens and we quit the browser/ do
 
   # quit driver to close the browser
   page.driver.quit
