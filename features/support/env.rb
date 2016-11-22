@@ -13,6 +13,7 @@ Capybara.register_driver :phantomjs do |app|
 end
 
 # added FireFox driver for remote testing through selenium grid
+Selenium::WebDriver::Firefox::Service.executable_path = '/usr/local/jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.1/'
 Capybara.register_driver :firefox do |app|
   caps = Selenium::WebDriver::Remote::Capabilities.firefox()
   Capybara::Selenium::Driver.new(app, {:browser => :remote, :url => url, :desired_capabilities => caps})
