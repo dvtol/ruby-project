@@ -1,4 +1,4 @@
-@otwn @lsrv-ruby
+@Website @otwn @sample1
 Feature: otwn - sample feature
 
   Scenario: 1 - Using owtn page for required actions
