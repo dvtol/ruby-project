@@ -1,5 +1,5 @@
 
-Given /^@startup the framework and visit otwn website/ do
+Given /^startup the framework and visit otwn website/ do
 
   # open otwn website
   visit('http://otwn.nl/')
@@ -8,7 +8,7 @@ Given /^@startup the framework and visit otwn website/ do
   sleep(2)
 end
 
-When /^@we click the 'hello world' link/ do
+When /^we click the 'hello world' link/ do
 
   # click hello world link
   page.find(:xpath, '//*[@id="post-1"]/header/h1/a').click
@@ -16,7 +16,7 @@ When /^@we click the 'hello world' link/ do
   page.save_screenshot('sample-otwn2.png')
 end
 
-Then /^@the hello word page opens and we quit the browser/ do
+Then /^the hello word page opens and we quit the browser/ do
 
   # quit driver to close the browser
   page.driver.quit
