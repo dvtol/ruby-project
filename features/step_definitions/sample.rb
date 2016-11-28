@@ -9,7 +9,7 @@ end
 When /^we click the 'hello world' link/ do
 
   # click hello world link
-  page.find(:xpath, '//*[@id="post-1"]/header/h1/a').click
+  page.find(:xpath, '//*[@id="page"]/div/div/article/header/h2/a').click
   page.save_screenshot('sample-otwn2.png')
 end
 
